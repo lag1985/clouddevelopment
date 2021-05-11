@@ -10,11 +10,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - npm run build
-  post_build:
-    commands:
-      - cp package.json /build
+      - npm run-script build
 artifacts:
   files:
-    - '**/*'
-  base-directory: build
+    - public/**/*
+    - src/**/*
+    - package.json
+    - scripts/**/*
