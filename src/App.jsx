@@ -6,7 +6,7 @@ import Card from './components/Card.jsx'
 export default props => (
   <div>
     <Card Title="Cloud Development" color="#9C0F5F">
-      HAROLD ISAAC CAMPERO STOFFERS MURILLO <br/> 
+      HAROLD MURILLO <br/> 
       Rm: 337233<br/>
       LEONARDO VILLANI <br/>
       Rm: 337936<br/>
